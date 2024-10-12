@@ -1,0 +1,6 @@
+.textshadow {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    text-shadow: 10px 10px 13px rgb(246, 23, 23);
+}
