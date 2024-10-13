@@ -1,0 +1,13 @@
+body html {
+    box-sizing: border-box;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.item {
+    border: 2px solid red;
+}
