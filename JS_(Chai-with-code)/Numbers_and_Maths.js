@@ -14,6 +14,7 @@ console.log(num1.toPrecision(4))
 /* +++++++++++++++ Maths +++++++++++++++ */
 // generating a random value in the given range using random math function
 
+// normal functions that we use are floor(), ceil(), min(), max(), round()
 const min = 10
 const max = 20
 
