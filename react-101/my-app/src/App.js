@@ -1,25 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Item from './MyItem';
+import Starwars from './Starwars';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Item name="Apple" /> //Props
-        <Item name="Pixel" /> 
-        <Item name="Samsung" /> 
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Starwars />
+        </header>
     </div>
   );
 }
